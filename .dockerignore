@@ -1,0 +1,60 @@
+## Ignorar bytecode y cachés de Python en el contexto de build
+__pycache__/
+Tienda_Online/__pycache__/
+*.py[cod]
+*$py.class
+
+## Control de versiones
+.git/
+.gitignore
+
+## Entornos virtuales locales (no deben ir en la imagen)
+.venv/
+venv/
+env/
+ENV/
+
+## Artefactos de build
+build/
+dist/
+.eggs/
+*.egg-info/
+.wheels/
+__pypackages__/
+
+## Cachés de test/cobertura
+.tox/
+.nox/
+.pytest_cache/
+.coverage*
+.hypothesis/
+
+## Archivos de IDE/editores
+.vscode/
+.idea/
+*.code-workspace
+
+## Archivos del SO
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Logs
+logs/
+*.log
+
+## Configuración local / secretos (usa variables de entorno en despliegue)
+.env
+.env.*
+*.pem
+*.key
+
+## Documentación no necesaria dentro de la imagen
+Tienda_Online/README.md
+
+## Diagramas
+**/*.uml
+**/*.puml
+
+## Node (si existiera)
+node_modules/
