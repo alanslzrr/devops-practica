@@ -88,10 +88,6 @@ logs/
 *.tmp
 *.temp
 
-# Docker
-.dockerignore
-Dockerfile
-docker-compose*.yml
 
 # Base de datos
 *.db
